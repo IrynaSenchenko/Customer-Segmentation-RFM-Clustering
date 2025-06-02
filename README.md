@@ -1,6 +1,9 @@
-# 🧠 Customer Segmentation with RFM and Clustering
+# 🧠 Customer Segmentation with RFM and Clustering / 🧠 Сегментація клієнтів на основі RFM і кластеризації
 
-This project demonstrates how to segment customers based on their behavior using unsupervised machine learning techniques. The dataset is based on real-world e-commerce transactions.
+**📄 Опис проєкту (UA)**: Цей проєкт присвячений сегментації клієнтів за допомогою RFM-аналізу (давність, частота, сума покупок) та алгоритмів кластеризації без вчителя. Мета — виявити різні типи клієнтів на основі їхньої поведінки для формування персоналізованих маркетингових стратегій.
+
+
+**📄 Project Description (EN)**: This project focuses on customer segmentation using RFM analysis (Recency, Frequency, Monetary value) and unsupervised clustering algorithms. The main goal is to identify distinct customer groups based on their purchasing behavior to help businesses tailor their marketing strategies.
 
 ## 📂 Project Structure
 
@@ -11,46 +14,7 @@ This project demonstrates how to segment customers based on their behavior using
 - `screenshots/` — project visuals
 - `requirements.txt` — Python libraries
 
-## 🔍 Techniques Used
-
-- RFM segmentation
-- Feature engineering (AvgOrderValue, CustomerLifespan, etc.)
-- StandardScaler, PCA
-- KMeans, Agglomerative, DBSCAN
-- Silhouette, Calinski-Harabasz, Davies-Bouldin
-- Profiling segments: VIP, Lost, Passive, Loyal, etc.
-
-## 📊 Sample Outputs
-
-![Clusters PCA](screenshots/clusters_pca.png)
-![Segment heatmap](screenshots/cluster_heatmap.png)
-![Segment profiles](screenshots/profiles_bar.png)
-
-## 🧩 Dataset
-
-- Kaggle: [Customer Segmentation Dataset](https://www.kaggle.com/datasets/yasserh/customer-segmentation-dataset)
-
-## 🚀 How to Run
-
-```bash
-pip install -r requirements.txt
-
-
-# 🧠 Сегментація клієнтів на основі RFM і кластеризації
-
-Цей проєкт демонструє, як можна сегментувати клієнтів на основі їхньої поведінки, використовуючи машинне навчання без учителя. Дані базуються на реальних e-commerce транзакціях.
-
-## 📂 Структура проєкту
-
-- `1_EDA_and_Cleaning.ipynb` — дослідження, очищення даних, побудова RFM-фіч
-- `2_Clustering_and_Evaluation.ipynb` — кластеризація (KMeans, DBSCAN, Agglomerative) та оцінка
-- `3_Business_Insights_and_Segments.ipynb` — опис сегментів і бізнес-інтерпретація
-- `data/` — сирі та очищені файли
-- `screenshots/` — графіки та візуалізації
-- `requirements.txt` — список бібліотек
-
 ## 🔍 Техніки
-
 - RFM-аналіз
 - Генерація ознак: середній чек, тривалість життя клієнта
 - Масштабування, PCA
@@ -58,17 +22,45 @@ pip install -r requirements.txt
 - Метрики якості: Silhouette, Calinski-Harabasz, Davies-Bouldin
 - Бізнес-профілі: VIP, Lost, Passive, Loyal тощо
 
-## 📊 Приклади виводу
 
-![Кластери PCA](screenshots/clusters_pca.png)
-![Хітмапа сегментів](screenshots/cluster_heatmap.png)
-![Профілі сегментів](screenshots/profiles_bar.png)
+## 🔍 Techniques Used
+- RFM segmentation
+- Feature engineering (AvgOrderValue, CustomerLifespan, etc.)
+- StandardScaler, PCA
+- KMeans, Agglomerative, DBSCAN
+- Silhouette, Calinski-Harabasz, Davies-Bouldin
+- Profiling segments: VIP, Lost, Passive, Loyal, etc.
 
-## 🧩 Джерело даних
+### 🖼️ Clusters PCA
+
+<img src="images/clusters_pca.png" alt="Clusters PCA preview" width="80%"/>
+
+### 🖼️ Segment heatmap
+
+<img src="images/cluster_heatmap.png" alt="Segment heatmap preview" width="80%"/>
+
+### 🖼️ Segment profiles
+
+<img src="images/profiles_bar.png" alt="Segment heatmap preview" width="80%"/>
+
+
+## 🧩 Dataset
 
 - Kaggle: [Customer Segmentation Dataset](https://www.kaggle.com/datasets/yasserh/customer-segmentation-dataset)
 
-## 🚀 Як запустити
-
+### 🧪 How to run / Як запустити:
 ```bash
+git clone https://github.com/IrynaSenchenko/Customer-Segmentation-RFM-Clustering.git
+cd Customer-Segmentation-RFM-Clustering
+
 pip install -r requirements.txt
+```
+Open and run the notebooks in order using Jupyter Notebook, JupyterLab, or VS Code:
+notebooks/1_EDA_and_Cleaning.ipynb — load and clean the data, generate RFM features
+notebooks/2_Clustering_and_Evaluation.ipynb — apply clustering algorithms and evaluate models
+notebooks/3_Business_Insights_and_Segments.ipynb — analyze clusters and interpret business insights
+
+---
+
+👩‍💻 **Author:** Iryna Senchenko  
+🔗 [LinkedIn profile](https://www.linkedin.com/in/iryna-senchenko/)
