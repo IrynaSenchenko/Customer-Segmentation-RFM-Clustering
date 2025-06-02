@@ -1,0 +1,8 @@
+Cluster,count_CustomerID,mean_Recency,median_Recency,mean_Frequency,median_Frequency,mean_Monetary,median_Monetary,sum_Monetary,mean_AvgOrderValue,median_AvgOrderValue,mean_NumUniqueProducts,median_NumUniqueProducts,mean_CustomerLifespan,median_CustomerLifespan,Percentage,Revenue_Share,Auto_Profile
+0,1564,55.56,46.0,1.89,1.0,683.75,430.0,1069378.45,33.43,17.21,35.95,26.0,36.42,0.0,36.1,12.0,Passive Customers
+1,1543,38.19,26.0,5.5,5.0,2012.35,1477.66,3105062.93,29.23,18.51,78.83,68.0,263.68,264.0,35.6,34.9,Loyal Customers
+2,236,12.29,7.5,20.42,17.0,11629.68,6677.91,2744604.23,42.0,17.54,250.68,241.0,327.63,351.0,5.4,30.9,Loyal Customers
+3,3,1.33,1.0,178.0,201.0,72428.07,40519.84,217284.2,12.71,7.49,1626.0,1768.0,371.67,372.0,0.1,2.4,VIP Customers
+4,985,256.17,253.0,1.51,1.0,536.9,305.1,528844.26,55.22,17.71,23.11,17.0,22.0,0.0,22.7,6.0,Lost Customers
+5,2,163.5,163.5,1.5,1.5,122828.05,122828.05,245656.1,66670.55,66670.55,2.0,2.0,102.0,102.0,0.0,2.8,Anomalous customers
+6,5,9.0,8.0,51.0,55.0,195275.74,194390.79,976378.72,314.99,174.95,426.4,444.0,350.4,359.0,0.1,11.0,VIP Customers
